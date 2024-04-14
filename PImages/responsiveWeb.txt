@@ -1,0 +1,43 @@
+/* Base styles for all devices (mobile-first) */
+
+/* Apply a box-sizing border-box model to ensure padding and border don't affect the element's total width */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* General styles for elements */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive styles for mobile devices */
+/* Media query for small screens (e.g., smartphones) */
+@media (max-width: 767px) {
+    /* Styles specific to small screens */
+}
+
+/* Responsive styles for tablets */
+/* Media query for medium screens (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Styles specific to medium screens */
+}
+
+/* Responsive styles for desktops and larger screens */
+/* Media query for large screens (e.g., desktops) */
+@media (min-width: 1024px) {
+    /* Styles specific to large screens */
+}
+
+/* Additional best practices */
+
+/* Fluid typography */
+html {
+    font-size: 100%; /* 1rem equals 16px */
+}
+
+/* Mobile viewport meta tag */
+/* This ensures that the page renders properly on mobile devices */
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
