@@ -420,6 +420,7 @@ footer a {
   text-decoration: none;
   color: #fff3db;
   padding: 2px;
+  cursor: pointer;
 }
 #socials::after,
 #socials::before {
@@ -1038,7 +1039,10 @@ footer div {
   .special-more-events {
     padding-bottom: 10px;
   }
+  .palm {
+    font-size: 1.1em;
+  }
   #big {
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
 }
