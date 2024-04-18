@@ -12,7 +12,6 @@ body {
   line-height: 1.5;
   color: #062424;
   width: 100%;
-  overflow-x: hidden;
 }
 html {
   font-size: 16px;
@@ -76,14 +75,14 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   padding: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
+  border-radius: 10px;
   cursor: pointer;
   color: #062424;
   font-weight: 700;
 }
 
 nav ul li a:hover {
-  border-radius: 10px;
   background-color: #062424;
   color: #fff;
 }
@@ -133,6 +132,7 @@ nav ul li a:hover {
 }
 #about img {
   height: 450px;
+  width: 100%;
 }
 #about .about-content {
   padding-left: 5%;
@@ -323,6 +323,8 @@ nav ul li a:hover {
 }
 
 #projects .container .image-projects {
+  padding-left: 20%;
+  padding-right: 20%;
   width: 100%;
 }
 
@@ -442,7 +444,7 @@ footer div {
   nav {
     display: block;
     height: 5vh;
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   nav ul {
     flex-direction: row;
@@ -450,8 +452,21 @@ footer div {
     padding-top: 0px;
   }
   nav ul li {
-    margin-right: 5px;
-    padding: 5px;
+    margin-right: 0px;
+    padding: 4px;
+  }
+
+  #home h1 {
+    font-size: 3em;
+  }
+  #home span {
+    font-size: 4.5em;
+  }
+  #home h6 {
+    font-size: 0.75em;
+    font-weight: lighter;
+    padding-top: 100px;
+    padding-bottom: 30px;
   }
 }
 @media (min-width: 550px) {
@@ -862,7 +877,16 @@ footer div {
   nav {
     display: block;
     height: 5vh;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
+  }
+  nav ul {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 0px;
+  }
+  nav ul li {
+    margin-right: 5px;
+    padding: 5px;
   }
   #home {
     padding-left: 5%;
