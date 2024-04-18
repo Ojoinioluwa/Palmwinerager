@@ -168,7 +168,7 @@ nav ul li a:hover {
 }
 #agenda .container {
   display: grid;
-  row-gap: 70px;
+  row-gap: 100px;
 }
 #agenda .container .agenda {
   height: 100px;
