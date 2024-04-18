@@ -1057,19 +1057,23 @@ footer div {
   }
 
   .more-events .text-more-events {
-    font-size: 1em;
+    font-size: 1.1em;
   }
   .more-events .text-more-events + p {
-    max-width: 35ch;
-    font-size: 0.5em;
+    max-width: 40ch;
+    font-size: 0.75em;
   }
-  .special-more-events {
+  #small-paragraph {
+    font-size: 0.75em;
+  }
+  #special-more-events {
+    font-size: 0.5em;
     padding-bottom: 10px;
   }
   #palm {
-    font-size: 1.4em;
+    font-size: 2.3em;
   }
   #big {
-    font-size: 1.6em;
+    font-size: 2.2em;
   }
 }
