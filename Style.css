@@ -240,7 +240,7 @@ nav ul li a:hover {
   text-decoration: underline;
   padding-bottom: 30px;
   font-size: 2em;
-  font-weight: lighter;
+  font-weight: 500;
 }
 
 #events .container {
@@ -579,7 +579,6 @@ footer div {
     text-decoration: underline;
     padding-bottom: 30px;
     font-size: 2em;
-    font-weight: lighter;
   }
 
   #events .container {
@@ -759,7 +758,6 @@ footer div {
     text-decoration: underline;
     padding-bottom: 30px;
     font-size: 2em;
-    font-weight: lighter;
   }
 
   #events .container {
@@ -899,8 +897,8 @@ footer div {
     grid-template-columns: 1fr 1fr;
   }
   #home .home-text {
-    margin-top: 90px;
-    font-size: 0.8em;
+    margin-top: 150px;
+    font-size: 0.7em;
   }
   #home h1 {
     font-size: 2.4em;
@@ -909,7 +907,7 @@ footer div {
     font-size: 5em;
   }
   #home h6 {
-    padding-top: 210px;
+    padding-top: 100px;
     font-size: 0.5em;
   }
   #home .logo img {
@@ -948,7 +946,7 @@ footer div {
   }
 
   #events .text h5 {
-    font-size: 0.8em;
+    font-size: 1.5em;
   }
 
   #events .container {
@@ -966,7 +964,7 @@ footer div {
     font-weight: 400;
   }
   #events div p {
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
   /* more about */
   .more-about {
