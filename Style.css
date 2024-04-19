@@ -97,6 +97,7 @@ nav ul li a:hover {
   padding-top: 50px;
   padding-left: 5%;
   padding-right: 5%;
+  height: fit-content;
 }
 #home .home-text {
   margin-top: 7.1vh;
@@ -172,14 +173,14 @@ nav ul li a:hover {
 }
 #agenda .container .agenda {
   height: 100px;
-  padding-right: 15%;
-  padding-left: 15%;
+  padding-right: 10%;
+  padding-left: 10%;
   margin-bottom: 70px;
   max-width: 50ch;
   margin: auto;
 }
 #agenda .container .agenda p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   padding-bottom: 10px;
 }
@@ -188,11 +189,14 @@ nav ul li a:hover {
 }
 /* details */
 #details {
-  height: 150vh;
+  height: fit-content;
   display: grid;
   padding-top: 50px;
   padding: 5%;
   padding-bottom: 5vh;
+}
+#details div:last-child {
+  margin-left: 30%;
 }
 #details div {
   width: 70%;
@@ -496,10 +500,27 @@ footer div {
     font-weight: bolder;
     font-size: 4em;
   }
+  #events .container {
+    padding-right: 27%;
+    padding-left: 27%;
+  }
+  #details div:last-child {
+    margin-left: 30%;
+  }
   .more-about .content p {
     font-weight: 200;
     max-width: 35ch;
     font-size: 2rem;
+  }
+  .more-events .main-container .container img {
+    width: 100%;
+    height: 400px;
+  }
+  #palm {
+    font-size: 2.6em;
+  }
+  #big {
+    font-size: 2.4em;
   }
 }
 @media (min-width: 760px) {
@@ -556,9 +577,10 @@ footer div {
     font-size: 4.3em;
   }
   #agenda .container .agenda {
-    padding-right: 30%;
-    padding-left: 30%;
+    padding-right: 20%;
+    padding-left: 20%;
     max-width: 100ch;
+    height: fit-content;
   }
   #agenda .container .agenda p {
     font-size: 2.2rem;
@@ -584,6 +606,26 @@ footer div {
   #events .container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 20px;
+    grid-template-rows: repeat(2, 1fr);
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  #events .container .innerContainer:first-child {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #events .container .innerContainer:nth-child(even) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #events .container .innerContainer:last-child {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+    width: 50%;
+    height: 100%;
   }
   /* more about */
   .more-about {
@@ -940,6 +982,7 @@ footer div {
     grid-template-columns: 10% 90%;
     padding-left: 5%;
     padding-right: 2%;
+    height: fit-content;
   }
   #events h1 {
     font-size: 2rem;
@@ -951,16 +994,32 @@ footer div {
 
   #events .container {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+  }
+  #events .container .innerContainer:first-child {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #events .container .innerContainer:nth-child(even) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #events .container .innerContainer:last-child {
+    grid-column: 3;
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
   }
   #events div h4 {
-    font-size: 0.6em;
+    font-size: 1em;
   }
   #events div h3 {
-    font-size: 0.8em;
+    font-size: 1.5em;
     font-weight: 400;
   }
   #events div h2 {
-    font-size: 0.9em;
+    font-size: 1.4em;
     font-weight: 400;
   }
   #events div p {
