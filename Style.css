@@ -606,7 +606,9 @@ footer div {
   #agenda .container .agenda small {
     font-size: 1.1rem;
   }
-
+  #details {
+    grid-template-columns: repeat(2, 1fr);
+  }
   #details div time {
     font-size: 1rem;
   }
