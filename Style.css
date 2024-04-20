@@ -34,6 +34,7 @@ header {
   position: fixed;
   background-color: #fff;
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 2;
 }
 
 .navBar {
@@ -977,6 +978,19 @@ footer div {
   }
   #about .about-content small {
     font-size: 1.3em;
+  }
+  /* details */
+  #details {
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    z-index: 1;
+  }
+  #details div:last-child {
+    grid-row: span 2;
+    align-self: end;
+    position: absolute;
+    left: 100px;
+    bottom: -10px;
   }
   #events {
     grid-template-columns: 10% 90%;
