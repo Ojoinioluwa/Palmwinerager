@@ -196,11 +196,7 @@ nav ul li a:hover {
   padding: 5%;
   padding-bottom: 5vh;
 }
-#details div:last-child {
-  margin-left: 30%;
-}
 #details div {
-  width: 70%;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -212,18 +208,21 @@ nav ul li a:hover {
 #details div time {
   font-size: 1.1rem;
   margin-bottom: 10px;
+  font-weight: 200;
 }
 #details div p {
   font-size: 1.1rem;
   margin-bottom: 10px;
+  font-weight: 200;
 }
 #details div address {
-  font-size: 1.1rem;
-  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 100;
 }
 #details div address span {
-  font-size: 1.4rem;
-  margin-bottom: 10px;
+  font-size: 1.1rem;
+  font-weight: 200;
 }
 #details div.special {
   line-height: 1.8;
@@ -512,18 +511,8 @@ footer div {
     padding-left: 27%;
   }
   #details div:last-child {
-    margin-left: 30%;
   }
-  #details div address {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-    padding-left: 25%;
-    padding-right: 25%;
-  }
-  #details div address span {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-  }
+
   .more-about .content p {
     font-weight: 200;
     max-width: 35ch;
@@ -612,20 +601,12 @@ footer div {
   #details div time {
     font-size: 1rem;
   }
-  #details div {
-    max-width: 40ch;
-  }
-  #details div p {
-    font-size: 1rem;
-  }
   #details div address {
-    font-size: 0.8rem;
-    padding-left: 10%;
-    padding-right: 10%;
+    font-size: 0.65rem;
   }
 
   #details div address span {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
   #events {
     grid-template-columns: 1fr;
@@ -825,22 +806,15 @@ footer div {
     font-size: 0.8rem;
   }
   #details div h5 {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
   #details div time {
     font-size: 0.9rem;
   }
   #details div p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
-  #details div address {
-    font-size: 0.9rem;
-    padding-left: 0%;
-    padding-right: 0%;
-  }
-  #details div address span {
-    font-size: 0.8rem;
-  }
+
   #events {
     grid-template-columns: 1fr;
     padding-left: 12%;
@@ -998,7 +972,7 @@ footer div {
     font-size: 0.7em;
   }
   #home h1 {
-    font-size: 2.4em;
+    font-size: 2.2em;
   }
   #home span {
     font-size: 5em;
@@ -1035,16 +1009,18 @@ footer div {
   }
   /* details */
   #details {
-    grid-template-columns: 1fr 1fr 1fr;
-    position: relative;
+    grid-template-columns: 1fr 2fr 1fr;
     z-index: 1;
   }
   #details div:last-child {
     grid-row: span 2;
     align-self: end;
-    position: absolute;
-    left: 100px;
-    bottom: -10px;
+  }
+  #details div:last-child p {
+    font-size: 0.9rem;
+  }
+  #details div:last-child h5 {
+    font-size: 1rem;
   }
   #events {
     grid-template-columns: 10% 90%;
