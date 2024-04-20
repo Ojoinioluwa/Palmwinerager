@@ -501,12 +501,28 @@ footer div {
     font-weight: bolder;
     font-size: 4em;
   }
+  #agenda .container .agenda {
+    padding-right: 10%;
+    padding-left: 10%;
+    max-width: 100ch;
+    height: fit-content;
+  }
   #events .container {
     padding-right: 27%;
     padding-left: 27%;
   }
   #details div:last-child {
     margin-left: 30%;
+  }
+  #details div address {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  #details div address span {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
   }
   .more-about .content p {
     font-weight: 200;
@@ -589,6 +605,25 @@ footer div {
   }
   #agenda .container .agenda small {
     font-size: 1.1rem;
+  }
+
+  #details div time {
+    font-size: 1rem;
+  }
+  #details div {
+    max-width: 40ch;
+  }
+  #details div p {
+    font-size: 1rem;
+  }
+  #details div address {
+    font-size: 0.8rem;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #details div address span {
+    font-size: 1rem;
   }
   #events {
     grid-template-columns: 1fr;
@@ -689,8 +724,8 @@ footer div {
   }
 
   .more-events .main-container .container-small {
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 20%;
+    padding-right: 20%;
     max-width: 80ch;
   }
 
@@ -785,6 +820,23 @@ footer div {
     font-size: 1.3rem;
   }
   #agenda .container .agenda small {
+    font-size: 0.8rem;
+  }
+  #details div h5 {
+    font-size: 1.1rem;
+  }
+  #details div time {
+    font-size: 0.9rem;
+  }
+  #details div p {
+    font-size: 1rem;
+  }
+  #details div address {
+    font-size: 0.9rem;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  #details div address span {
     font-size: 0.8rem;
   }
   #events {
